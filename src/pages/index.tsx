@@ -10,7 +10,6 @@ const IndexPage: React.FC = () => {
 
   const handleInputChange = (value: string) => {
     setInputValue(value);
-    setCharCount(value.length);
   };
 
   const handleButtonClick = () => {
